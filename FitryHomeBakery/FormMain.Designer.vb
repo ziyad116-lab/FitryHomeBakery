@@ -130,11 +130,11 @@ Partial Class FormMain
         lblDeskripsiPesananMendatang.AutoSize = True
         lblDeskripsiPesananMendatang.BackColor = Color.Transparent
         lblDeskripsiPesananMendatang.Dock = DockStyle.Top
-        lblDeskripsiPesananMendatang.Font = New Font("Segoe UI", 9.0F)
+        lblDeskripsiPesananMendatang.Font = New Font("Segoe UI", 9F)
         lblDeskripsiPesananMendatang.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiPesananMendatang.Location = New Point(15, 47)
+        lblDeskripsiPesananMendatang.Location = New Point(15, 36)
         lblDeskripsiPesananMendatang.Name = "lblDeskripsiPesananMendatang"
-        lblDeskripsiPesananMendatang.Size = New Size(510, 25)
+        lblDeskripsiPesananMendatang.Size = New Size(340, 15)
         lblDeskripsiPesananMendatang.TabIndex = 1
         lblDeskripsiPesananMendatang.Text = "Pesanan yang perlu dipantau berdasarkan jadwal pengambilan."
         ' 
@@ -143,11 +143,11 @@ Partial Class FormMain
         lblDeskripsiRingkasanPenjualan.AutoSize = True
         lblDeskripsiRingkasanPenjualan.BackColor = Color.Transparent
         lblDeskripsiRingkasanPenjualan.Dock = DockStyle.Top
-        lblDeskripsiRingkasanPenjualan.Font = New Font("Segoe UI", 9.0F)
+        lblDeskripsiRingkasanPenjualan.Font = New Font("Segoe UI", 9F)
         lblDeskripsiRingkasanPenjualan.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiRingkasanPenjualan.Location = New Point(15, 47)
+        lblDeskripsiRingkasanPenjualan.Location = New Point(15, 36)
         lblDeskripsiRingkasanPenjualan.Name = "lblDeskripsiRingkasanPenjualan"
-        lblDeskripsiRingkasanPenjualan.Size = New Size(337, 25)
+        lblDeskripsiRingkasanPenjualan.Size = New Size(226, 15)
         lblDeskripsiRingkasanPenjualan.TabIndex = 1
         lblDeskripsiRingkasanPenjualan.Text = "Pantau total penjualan Fitry Homebakery."
         ' 
@@ -156,11 +156,11 @@ Partial Class FormMain
         lblDeskripsiProdukTerlaris.AutoSize = True
         lblDeskripsiProdukTerlaris.BackColor = Color.Transparent
         lblDeskripsiProdukTerlaris.Dock = DockStyle.Top
-        lblDeskripsiProdukTerlaris.Font = New Font("Segoe UI", 9.0F)
+        lblDeskripsiProdukTerlaris.Font = New Font("Segoe UI", 9F)
         lblDeskripsiProdukTerlaris.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiProdukTerlaris.Location = New Point(15, 47)
+        lblDeskripsiProdukTerlaris.Location = New Point(15, 36)
         lblDeskripsiProdukTerlaris.Name = "lblDeskripsiProdukTerlaris"
-        lblDeskripsiProdukTerlaris.Size = New Size(405, 25)
+        lblDeskripsiProdukTerlaris.Size = New Size(268, 15)
         lblDeskripsiProdukTerlaris.TabIndex = 1
         lblDeskripsiProdukTerlaris.Text = "Daftar produk dengan jumlah pesanan terbanyak."
         ' 
@@ -178,7 +178,7 @@ Partial Class FormMain
         pnlSidebar.Dock = DockStyle.Left
         pnlSidebar.Location = New Point(0, 0)
         pnlSidebar.Name = "pnlSidebar"
-        pnlSidebar.Size = New Size(240, 665)
+        pnlSidebar.Size = New Size(240, 682)
         pnlSidebar.TabIndex = 0
         ' 
         ' btnPengaturan
@@ -188,7 +188,7 @@ Partial Class FormMain
         btnPengaturan.FlatAppearance.BorderSize = 0
         btnPengaturan.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnPengaturan.FlatStyle = FlatStyle.Flat
-        btnPengaturan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnPengaturan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnPengaturan.ForeColor = Color.White
         btnPengaturan.Location = New Point(16, 376)
         btnPengaturan.Name = "btnPengaturan"
@@ -205,7 +205,7 @@ Partial Class FormMain
         btnPembayaran.FlatAppearance.BorderSize = 0
         btnPembayaran.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnPembayaran.FlatStyle = FlatStyle.Flat
-        btnPembayaran.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnPembayaran.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnPembayaran.ForeColor = Color.White
         btnPembayaran.Location = New Point(16, 325)
         btnPembayaran.Name = "btnPembayaran"
@@ -222,7 +222,7 @@ Partial Class FormMain
         btnManajemenProduk.FlatAppearance.BorderSize = 0
         btnManajemenProduk.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnManajemenProduk.FlatStyle = FlatStyle.Flat
-        btnManajemenProduk.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnManajemenProduk.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnManajemenProduk.ForeColor = Color.White
         btnManajemenProduk.Location = New Point(16, 274)
         btnManajemenProduk.Name = "btnManajemenProduk"
@@ -239,7 +239,7 @@ Partial Class FormMain
         btnCustomPesanan.FlatAppearance.BorderSize = 0
         btnCustomPesanan.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnCustomPesanan.FlatStyle = FlatStyle.Flat
-        btnCustomPesanan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCustomPesanan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCustomPesanan.ForeColor = Color.White
         btnCustomPesanan.Location = New Point(16, 223)
         btnCustomPesanan.Name = "btnCustomPesanan"
@@ -256,7 +256,7 @@ Partial Class FormMain
         btnDataPesanan.FlatAppearance.BorderSize = 0
         btnDataPesanan.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnDataPesanan.FlatStyle = FlatStyle.Flat
-        btnDataPesanan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnDataPesanan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnDataPesanan.ForeColor = Color.White
         btnDataPesanan.Location = New Point(16, 172)
         btnDataPesanan.Name = "btnDataPesanan"
@@ -273,7 +273,7 @@ Partial Class FormMain
         btnTambahPesanan.FlatAppearance.BorderSize = 0
         btnTambahPesanan.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnTambahPesanan.FlatStyle = FlatStyle.Flat
-        btnTambahPesanan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnTambahPesanan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnTambahPesanan.ForeColor = Color.White
         btnTambahPesanan.Location = New Point(16, 121)
         btnTambahPesanan.Name = "btnTambahPesanan"
@@ -290,7 +290,7 @@ Partial Class FormMain
         btnBeranda.FlatAppearance.BorderSize = 0
         btnBeranda.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(96), CByte(68), CByte(58))
         btnBeranda.FlatStyle = FlatStyle.Flat
-        btnBeranda.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnBeranda.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnBeranda.ForeColor = Color.White
         btnBeranda.Location = New Point(16, 70)
         btnBeranda.Name = "btnBeranda"
@@ -305,11 +305,11 @@ Partial Class FormMain
         lblNamaUsaha.AutoSize = True
         lblNamaUsaha.Cursor = Cursors.Hand
         lblNamaUsaha.FlatStyle = FlatStyle.Flat
-        lblNamaUsaha.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNamaUsaha.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNamaUsaha.ForeColor = Color.White
         lblNamaUsaha.Location = New Point(16, 23)
         lblNamaUsaha.Name = "lblNamaUsaha"
-        lblNamaUsaha.Size = New Size(207, 28)
+        lblNamaUsaha.Size = New Size(145, 19)
         lblNamaUsaha.TabIndex = 0
         lblNamaUsaha.Text = "FITRY HOMEBAKERY"
         lblNamaUsaha.TextAlign = ContentAlignment.MiddleLeft
@@ -321,17 +321,17 @@ Partial Class FormMain
         pnlHeader.Dock = DockStyle.Top
         pnlHeader.Location = New Point(240, 0)
         pnlHeader.Name = "pnlHeader"
-        pnlHeader.Size = New Size(836, 70)
+        pnlHeader.Size = New Size(842, 70)
         pnlHeader.TabIndex = 1
         ' 
         ' lblJudulHalaman
         ' 
         lblJudulHalaman.AutoSize = True
-        lblJudulHalaman.Font = New Font("Segoe UI", 16.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudulHalaman.Font = New Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudulHalaman.ForeColor = Color.White
         lblJudulHalaman.Location = New Point(16, 13)
         lblJudulHalaman.Name = "lblJudulHalaman"
-        lblJudulHalaman.Size = New Size(144, 45)
+        lblJudulHalaman.Size = New Size(99, 30)
         lblJudulHalaman.TabIndex = 0
         lblJudulHalaman.Text = "Beranda"
         ' 
@@ -350,7 +350,7 @@ Partial Class FormMain
         pnlContent.Dock = DockStyle.Fill
         pnlContent.Location = New Point(240, 70)
         pnlContent.Name = "pnlContent"
-        pnlContent.Size = New Size(836, 595)
+        pnlContent.Size = New Size(842, 612)
         pnlContent.TabIndex = 2
         ' 
         ' pnlProdukTerlaris
@@ -364,7 +364,7 @@ Partial Class FormMain
         pnlProdukTerlaris.Location = New Point(24, 1153)
         pnlProdukTerlaris.Name = "pnlProdukTerlaris"
         pnlProdukTerlaris.Padding = New Padding(15)
-        pnlProdukTerlaris.Size = New Size(762, 276)
+        pnlProdukTerlaris.Size = New Size(768, 276)
         pnlProdukTerlaris.TabIndex = 6
         ' 
         ' lblBelumAdaProduk
@@ -372,7 +372,7 @@ Partial Class FormMain
         lblBelumAdaProduk.Anchor = AnchorStyles.Top
         lblBelumAdaProduk.BackColor = Color.Transparent
         lblBelumAdaProduk.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblBelumAdaProduk.Location = New Point(168, 130)
+        lblBelumAdaProduk.Location = New Point(171, 130)
         lblBelumAdaProduk.Name = "lblBelumAdaProduk"
         lblBelumAdaProduk.Size = New Size(425, 38)
         lblBelumAdaProduk.TabIndex = 4
@@ -384,7 +384,7 @@ Partial Class FormMain
         dgvProdukTerlaris.AllowUserToAddRows = False
         dgvProdukTerlaris.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(248), CByte(244), CByte(238))
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 10.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         DataGridViewCellStyle1.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         dgvProdukTerlaris.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         dgvProdukTerlaris.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
@@ -394,7 +394,7 @@ Partial Class FormMain
         dgvProdukTerlaris.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         DataGridViewCellStyle2.ForeColor = Color.White
         DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
@@ -404,7 +404,7 @@ Partial Class FormMain
         dgvProdukTerlaris.Columns.AddRange(New DataGridViewColumn() {No, NamaProduk, JumlahTerjual})
         DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 10.0F)
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 10F)
         DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(233), CByte(222), CByte(211))
         DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
@@ -420,7 +420,7 @@ Partial Class FormMain
         dgvProdukTerlaris.RowHeadersWidth = 62
         dgvProdukTerlaris.RowTemplate.Height = 36
         dgvProdukTerlaris.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgvProdukTerlaris.Size = New Size(732, 190)
+        dgvProdukTerlaris.Size = New Size(738, 190)
         dgvProdukTerlaris.TabIndex = 2
         ' 
         ' No
@@ -461,11 +461,11 @@ Partial Class FormMain
         lblJudulProdukTerlaris.AutoSize = True
         lblJudulProdukTerlaris.BackColor = Color.Transparent
         lblJudulProdukTerlaris.Dock = DockStyle.Top
-        lblJudulProdukTerlaris.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudulProdukTerlaris.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudulProdukTerlaris.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulProdukTerlaris.Location = New Point(15, 15)
         lblJudulProdukTerlaris.Name = "lblJudulProdukTerlaris"
-        lblJudulProdukTerlaris.Size = New Size(187, 32)
+        lblJudulProdukTerlaris.Size = New Size(124, 21)
         lblJudulProdukTerlaris.TabIndex = 0
         lblJudulProdukTerlaris.Text = "Produk Terlaris"
         lblJudulProdukTerlaris.TextAlign = ContentAlignment.MiddleLeft
@@ -484,7 +484,7 @@ Partial Class FormMain
         pnlRingkasanPenjualan.Location = New Point(24, 664)
         pnlRingkasanPenjualan.Name = "pnlRingkasanPenjualan"
         pnlRingkasanPenjualan.Padding = New Padding(15)
-        pnlRingkasanPenjualan.Size = New Size(762, 473)
+        pnlRingkasanPenjualan.Size = New Size(768, 473)
         pnlRingkasanPenjualan.TabIndex = 5
         ' 
         ' pnlGrafikPenjualan
@@ -499,18 +499,18 @@ Partial Class FormMain
         pnlGrafikPenjualan.Controls.Add(lblJudulGrafikPenjualan)
         pnlGrafikPenjualan.Location = New Point(15, 187)
         pnlGrafikPenjualan.Name = "pnlGrafikPenjualan"
-        pnlGrafikPenjualan.Size = New Size(732, 274)
+        pnlGrafikPenjualan.Size = New Size(738, 274)
         pnlGrafikPenjualan.TabIndex = 6
         ' 
         ' lblKeteranganGrafik
         ' 
         lblKeteranganGrafik.AutoSize = True
         lblKeteranganGrafik.BackColor = Color.Transparent
-        lblKeteranganGrafik.Font = New Font("Segoe UI", 9.0F)
+        lblKeteranganGrafik.Font = New Font("Segoe UI", 9F)
         lblKeteranganGrafik.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganGrafik.Location = New Point(15, 44)
         lblKeteranganGrafik.Name = "lblKeteranganGrafik"
-        lblKeteranganGrafik.Size = New Size(340, 25)
+        lblKeteranganGrafik.Size = New Size(225, 15)
         lblKeteranganGrafik.TabIndex = 7
         lblKeteranganGrafik.Text = "Visualisasi penjualan berdasarkan periode"
         ' 
@@ -518,7 +518,7 @@ Partial Class FormMain
         ' 
         pnlBatangPenjualan4.Anchor = AnchorStyles.Bottom
         pnlBatangPenjualan4.BackColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
-        pnlBatangPenjualan4.Location = New Point(549, 138)
+        pnlBatangPenjualan4.Location = New Point(552, 138)
         pnlBatangPenjualan4.Name = "pnlBatangPenjualan4"
         pnlBatangPenjualan4.Size = New Size(35, 113)
         pnlBatangPenjualan4.TabIndex = 4
@@ -527,7 +527,7 @@ Partial Class FormMain
         ' 
         pnlBatangPenjualan3.Anchor = AnchorStyles.Bottom
         pnlBatangPenjualan3.BackColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
-        pnlBatangPenjualan3.Location = New Point(405, 215)
+        pnlBatangPenjualan3.Location = New Point(408, 215)
         pnlBatangPenjualan3.Name = "pnlBatangPenjualan3"
         pnlBatangPenjualan3.Size = New Size(35, 36)
         pnlBatangPenjualan3.TabIndex = 3
@@ -536,7 +536,7 @@ Partial Class FormMain
         ' 
         pnlBatangPenjualan2.Anchor = AnchorStyles.Bottom
         pnlBatangPenjualan2.BackColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
-        pnlBatangPenjualan2.Location = New Point(277, 154)
+        pnlBatangPenjualan2.Location = New Point(280, 154)
         pnlBatangPenjualan2.Name = "pnlBatangPenjualan2"
         pnlBatangPenjualan2.Size = New Size(35, 97)
         pnlBatangPenjualan2.TabIndex = 2
@@ -545,7 +545,7 @@ Partial Class FormMain
         ' 
         pnlBatangPenjualan1.Anchor = AnchorStyles.Bottom
         pnlBatangPenjualan1.BackColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
-        pnlBatangPenjualan1.Location = New Point(133, 186)
+        pnlBatangPenjualan1.Location = New Point(136, 186)
         pnlBatangPenjualan1.Name = "pnlBatangPenjualan1"
         pnlBatangPenjualan1.Size = New Size(35, 65)
         pnlBatangPenjualan1.TabIndex = 1
@@ -554,11 +554,11 @@ Partial Class FormMain
         ' 
         lblJudulGrafikPenjualan.AutoSize = True
         lblJudulGrafikPenjualan.BackColor = Color.Transparent
-        lblJudulGrafikPenjualan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudulGrafikPenjualan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudulGrafikPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulGrafikPenjualan.Location = New Point(15, 12)
         lblJudulGrafikPenjualan.Name = "lblJudulGrafikPenjualan"
-        lblJudulGrafikPenjualan.Size = New Size(168, 28)
+        lblJudulGrafikPenjualan.Size = New Size(119, 19)
         lblJudulGrafikPenjualan.TabIndex = 0
         lblJudulGrafikPenjualan.Text = "Grafik Penjualan"
         ' 
@@ -567,24 +567,24 @@ Partial Class FormMain
         cmbPeriodePenjualan.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbPeriodePenjualan.BackColor = Color.White
         cmbPeriodePenjualan.DropDownStyle = ComboBoxStyle.DropDownList
-        cmbPeriodePenjualan.Font = New Font("Segoe UI", 9.0F)
+        cmbPeriodePenjualan.Font = New Font("Segoe UI", 9F)
         cmbPeriodePenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         cmbPeriodePenjualan.FormattingEnabled = True
         cmbPeriodePenjualan.Items.AddRange(New Object() {"Hari Ini", "Minggu Ini", "Bulan Ini", "Bulan Lalu", "Tahun Ini"})
-        cmbPeriodePenjualan.Location = New Point(597, 18)
+        cmbPeriodePenjualan.Location = New Point(603, 18)
         cmbPeriodePenjualan.Name = "cmbPeriodePenjualan"
-        cmbPeriodePenjualan.Size = New Size(150, 33)
+        cmbPeriodePenjualan.Size = New Size(150, 23)
         cmbPeriodePenjualan.TabIndex = 5
         ' 
         ' lblPeriodePenjualan
         ' 
         lblPeriodePenjualan.AutoSize = True
         lblPeriodePenjualan.BackColor = Color.Transparent
-        lblPeriodePenjualan.Font = New Font("Segoe UI", 9.0F)
+        lblPeriodePenjualan.Font = New Font("Segoe UI", 9F)
         lblPeriodePenjualan.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblPeriodePenjualan.Location = New Point(15, 159)
         lblPeriodePenjualan.Name = "lblPeriodePenjualan"
-        lblPeriodePenjualan.Size = New Size(247, 25)
+        lblPeriodePenjualan.Size = New Size(167, 15)
         lblPeriodePenjualan.TabIndex = 4
         lblPeriodePenjualan.Text = "Akumulasi penjualan bulan ini"
         ' 
@@ -592,11 +592,11 @@ Partial Class FormMain
         ' 
         lblNominalPenjualan.AutoSize = True
         lblNominalPenjualan.BackColor = Color.Transparent
-        lblNominalPenjualan.Font = New Font("Segoe UI", 20.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNominalPenjualan.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNominalPenjualan.ForeColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
         lblNominalPenjualan.Location = New Point(15, 105)
         lblNominalPenjualan.Name = "lblNominalPenjualan"
-        lblNominalPenjualan.Size = New Size(97, 54)
+        lblNominalPenjualan.Size = New Size(68, 37)
         lblNominalPenjualan.TabIndex = 3
         lblNominalPenjualan.Text = "Rp0"
         ' 
@@ -604,11 +604,11 @@ Partial Class FormMain
         ' 
         lblTotalPenjualan.AutoSize = True
         lblTotalPenjualan.BackColor = Color.Transparent
-        lblTotalPenjualan.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTotalPenjualan.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTotalPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblTotalPenjualan.Location = New Point(15, 80)
         lblTotalPenjualan.Name = "lblTotalPenjualan"
-        lblTotalPenjualan.Size = New Size(157, 28)
+        lblTotalPenjualan.Size = New Size(111, 19)
         lblTotalPenjualan.TabIndex = 2
         lblTotalPenjualan.Text = "Total Penjualan"
         ' 
@@ -617,11 +617,11 @@ Partial Class FormMain
         lblJudulRingkasanPenjualan.AutoSize = True
         lblJudulRingkasanPenjualan.BackColor = Color.Transparent
         lblJudulRingkasanPenjualan.Dock = DockStyle.Top
-        lblJudulRingkasanPenjualan.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudulRingkasanPenjualan.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudulRingkasanPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulRingkasanPenjualan.Location = New Point(15, 15)
         lblJudulRingkasanPenjualan.Name = "lblJudulRingkasanPenjualan"
-        lblJudulRingkasanPenjualan.Size = New Size(251, 32)
+        lblJudulRingkasanPenjualan.Size = New Size(170, 21)
         lblJudulRingkasanPenjualan.TabIndex = 0
         lblJudulRingkasanPenjualan.Text = "Ringkasan Penjualan"
         lblJudulRingkasanPenjualan.TextAlign = ContentAlignment.MiddleLeft
@@ -637,7 +637,7 @@ Partial Class FormMain
         pnlPesananMendatang.Location = New Point(24, 352)
         pnlPesananMendatang.Name = "pnlPesananMendatang"
         pnlPesananMendatang.Padding = New Padding(15)
-        pnlPesananMendatang.Size = New Size(762, 296)
+        pnlPesananMendatang.Size = New Size(768, 296)
         pnlPesananMendatang.TabIndex = 4
         ' 
         ' lblBelumAdaPesanan
@@ -645,7 +645,7 @@ Partial Class FormMain
         lblBelumAdaPesanan.Anchor = AnchorStyles.Top
         lblBelumAdaPesanan.BackColor = Color.Transparent
         lblBelumAdaPesanan.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblBelumAdaPesanan.Location = New Point(168, 130)
+        lblBelumAdaPesanan.Location = New Point(171, 130)
         lblBelumAdaPesanan.Name = "lblBelumAdaPesanan"
         lblBelumAdaPesanan.Size = New Size(425, 38)
         lblBelumAdaPesanan.TabIndex = 3
@@ -657,7 +657,7 @@ Partial Class FormMain
         dgvPesananMendatang.AllowUserToAddRows = False
         dgvPesananMendatang.AllowUserToDeleteRows = False
         DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(248), CByte(244), CByte(238))
-        DataGridViewCellStyle7.Font = New Font("Segoe UI", 10.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle7.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         DataGridViewCellStyle7.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         dgvPesananMendatang.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         dgvPesananMendatang.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
@@ -667,7 +667,7 @@ Partial Class FormMain
         dgvPesananMendatang.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         DataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle8.BackColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
-        DataGridViewCellStyle8.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle8.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         DataGridViewCellStyle8.ForeColor = Color.White
         DataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         DataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText
@@ -677,7 +677,7 @@ Partial Class FormMain
         dgvPesananMendatang.Columns.AddRange(New DataGridViewColumn() {NoPesanan, NamaPelanggan, Produk, Jumlah, TanggalAmbil, JamAmbil, StatusPesanan})
         DataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle16.BackColor = Color.White
-        DataGridViewCellStyle16.Font = New Font("Segoe UI", 10.0F)
+        DataGridViewCellStyle16.Font = New Font("Segoe UI", 10F)
         DataGridViewCellStyle16.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         DataGridViewCellStyle16.SelectionBackColor = Color.FromArgb(CByte(233), CByte(222), CByte(211))
         DataGridViewCellStyle16.SelectionForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
@@ -693,7 +693,7 @@ Partial Class FormMain
         dgvPesananMendatang.RowHeadersWidth = 62
         dgvPesananMendatang.RowTemplate.Height = 36
         dgvPesananMendatang.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgvPesananMendatang.Size = New Size(732, 209)
+        dgvPesananMendatang.Size = New Size(738, 209)
         dgvPesananMendatang.TabIndex = 2
         ' 
         ' NoPesanan
@@ -772,11 +772,11 @@ Partial Class FormMain
         lblJudulPesananMendatang.AutoSize = True
         lblJudulPesananMendatang.BackColor = Color.Transparent
         lblJudulPesananMendatang.Dock = DockStyle.Top
-        lblJudulPesananMendatang.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudulPesananMendatang.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudulPesananMendatang.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulPesananMendatang.Location = New Point(15, 15)
         lblJudulPesananMendatang.Name = "lblJudulPesananMendatang"
-        lblJudulPesananMendatang.Size = New Size(246, 32)
+        lblJudulPesananMendatang.Size = New Size(166, 21)
         lblJudulPesananMendatang.TabIndex = 0
         lblJudulPesananMendatang.Text = "Pesanan Mendatang"
         lblJudulPesananMendatang.TextAlign = ContentAlignment.MiddleLeft
@@ -784,20 +784,20 @@ Partial Class FormMain
         ' tlpKartuRingkasan
         ' 
         tlpKartuRingkasan.ColumnCount = 2
-        tlpKartuRingkasan.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50.0F))
-        tlpKartuRingkasan.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50.0F))
+        tlpKartuRingkasan.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
+        tlpKartuRingkasan.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
         tlpKartuRingkasan.Controls.Add(pnlBelumLunas, 1, 1)
         tlpKartuRingkasan.Controls.Add(pnlBelumSelesai, 0, 1)
         tlpKartuRingkasan.Controls.Add(pnlPesananBesok, 1, 0)
         tlpKartuRingkasan.Controls.Add(pnlPesananHariIni, 0, 0)
         tlpKartuRingkasan.Dock = DockStyle.Top
-        tlpKartuRingkasan.Location = New Point(0, 102)
+        tlpKartuRingkasan.Location = New Point(0, 85)
         tlpKartuRingkasan.Name = "tlpKartuRingkasan"
         tlpKartuRingkasan.Padding = New Padding(24, 16, 24, 0)
         tlpKartuRingkasan.RowCount = 2
-        tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50.0F))
-        tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50.0F))
-        tlpKartuRingkasan.Size = New Size(810, 286)
+        tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        tlpKartuRingkasan.Size = New Size(825, 286)
         tlpKartuRingkasan.TabIndex = 3
         ' 
         ' pnlBelumLunas
@@ -807,32 +807,32 @@ Partial Class FormMain
         pnlBelumLunas.Controls.Add(lblNamaBelumLunas)
         pnlBelumLunas.Controls.Add(lblAngkaBelumLunas)
         pnlBelumLunas.Dock = DockStyle.Fill
-        pnlBelumLunas.Location = New Point(411, 157)
+        pnlBelumLunas.Location = New Point(418, 157)
         pnlBelumLunas.Margin = New Padding(6)
         pnlBelumLunas.Name = "pnlBelumLunas"
         pnlBelumLunas.Padding = New Padding(15, 12, 15, 12)
-        pnlBelumLunas.Size = New Size(369, 123)
+        pnlBelumLunas.Size = New Size(377, 123)
         pnlBelumLunas.TabIndex = 5
         ' 
         ' lblKeteranganBelumLunas
         ' 
         lblKeteranganBelumLunas.Dock = DockStyle.Bottom
-        lblKeteranganBelumLunas.Font = New Font("Segoe UI", 9.0F)
+        lblKeteranganBelumLunas.Font = New Font("Segoe UI", 9F)
         lblKeteranganBelumLunas.ForeColor = Color.FromArgb(CByte(180), CByte(110), CByte(0))
         lblKeteranganBelumLunas.Location = New Point(15, 81)
         lblKeteranganBelumLunas.Name = "lblKeteranganBelumLunas"
-        lblKeteranganBelumLunas.Size = New Size(339, 30)
+        lblKeteranganBelumLunas.Size = New Size(347, 30)
         lblKeteranganBelumLunas.TabIndex = 1
         lblKeteranganBelumLunas.Text = "Pesanan masih memiliki tagihan"
         ' 
         ' lblNamaBelumLunas
         ' 
         lblNamaBelumLunas.Dock = DockStyle.Top
-        lblNamaBelumLunas.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNamaBelumLunas.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNamaBelumLunas.ForeColor = Color.FromArgb(CByte(180), CByte(110), CByte(0))
         lblNamaBelumLunas.Location = New Point(15, 12)
         lblNamaBelumLunas.Name = "lblNamaBelumLunas"
-        lblNamaBelumLunas.Size = New Size(339, 30)
+        lblNamaBelumLunas.Size = New Size(347, 30)
         lblNamaBelumLunas.TabIndex = 0
         lblNamaBelumLunas.Text = "Belum Lunas"
         ' 
@@ -840,11 +840,11 @@ Partial Class FormMain
         ' 
         lblAngkaBelumLunas.AutoSize = True
         lblAngkaBelumLunas.BackColor = Color.Transparent
-        lblAngkaBelumLunas.Font = New Font("Segoe UI", 22.0F, FontStyle.Bold)
+        lblAngkaBelumLunas.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
         lblAngkaBelumLunas.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaBelumLunas.Location = New Point(18, 31)
         lblAngkaBelumLunas.Name = "lblAngkaBelumLunas"
-        lblAngkaBelumLunas.Size = New Size(50, 60)
+        lblAngkaBelumLunas.Size = New Size(35, 41)
         lblAngkaBelumLunas.TabIndex = 2
         lblAngkaBelumLunas.Text = "0"
         ' 
@@ -859,28 +859,28 @@ Partial Class FormMain
         pnlBelumSelesai.Margin = New Padding(6)
         pnlBelumSelesai.Name = "pnlBelumSelesai"
         pnlBelumSelesai.Padding = New Padding(15, 12, 15, 12)
-        pnlBelumSelesai.Size = New Size(369, 123)
+        pnlBelumSelesai.Size = New Size(376, 123)
         pnlBelumSelesai.TabIndex = 4
         ' 
         ' lblKeteranganBelumSelesai
         ' 
         lblKeteranganBelumSelesai.Dock = DockStyle.Bottom
-        lblKeteranganBelumSelesai.Font = New Font("Segoe UI", 9.0F)
+        lblKeteranganBelumSelesai.Font = New Font("Segoe UI", 9F)
         lblKeteranganBelumSelesai.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganBelumSelesai.Location = New Point(15, 81)
         lblKeteranganBelumSelesai.Name = "lblKeteranganBelumSelesai"
-        lblKeteranganBelumSelesai.Size = New Size(339, 30)
+        lblKeteranganBelumSelesai.Size = New Size(346, 30)
         lblKeteranganBelumSelesai.TabIndex = 1
         lblKeteranganBelumSelesai.Text = "Pesanan perlu dikerjakan"
         ' 
         ' lblNamaBelumSelesai
         ' 
         lblNamaBelumSelesai.Dock = DockStyle.Top
-        lblNamaBelumSelesai.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNamaBelumSelesai.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNamaBelumSelesai.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaBelumSelesai.Location = New Point(15, 12)
         lblNamaBelumSelesai.Name = "lblNamaBelumSelesai"
-        lblNamaBelumSelesai.Size = New Size(339, 30)
+        lblNamaBelumSelesai.Size = New Size(346, 30)
         lblNamaBelumSelesai.TabIndex = 0
         lblNamaBelumSelesai.Text = "Belum Selesai"
         ' 
@@ -888,11 +888,11 @@ Partial Class FormMain
         ' 
         lblAngkaBelumSelesai.AutoSize = True
         lblAngkaBelumSelesai.BackColor = Color.Transparent
-        lblAngkaBelumSelesai.Font = New Font("Segoe UI", 22.0F, FontStyle.Bold)
+        lblAngkaBelumSelesai.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
         lblAngkaBelumSelesai.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaBelumSelesai.Location = New Point(18, 31)
         lblAngkaBelumSelesai.Name = "lblAngkaBelumSelesai"
-        lblAngkaBelumSelesai.Size = New Size(50, 60)
+        lblAngkaBelumSelesai.Size = New Size(35, 41)
         lblAngkaBelumSelesai.TabIndex = 2
         lblAngkaBelumSelesai.Text = "0"
         ' 
@@ -903,32 +903,32 @@ Partial Class FormMain
         pnlPesananBesok.Controls.Add(lblNamaPesananBesok)
         pnlPesananBesok.Controls.Add(lblAngkaPesananBesok)
         pnlPesananBesok.Dock = DockStyle.Fill
-        pnlPesananBesok.Location = New Point(411, 22)
+        pnlPesananBesok.Location = New Point(418, 22)
         pnlPesananBesok.Margin = New Padding(6)
         pnlPesananBesok.Name = "pnlPesananBesok"
         pnlPesananBesok.Padding = New Padding(15, 12, 15, 12)
-        pnlPesananBesok.Size = New Size(369, 123)
+        pnlPesananBesok.Size = New Size(377, 123)
         pnlPesananBesok.TabIndex = 3
         ' 
         ' lblKeteranganPesananBesok
         ' 
         lblKeteranganPesananBesok.Dock = DockStyle.Bottom
-        lblKeteranganPesananBesok.Font = New Font("Segoe UI", 9.0F)
+        lblKeteranganPesananBesok.Font = New Font("Segoe UI", 9F)
         lblKeteranganPesananBesok.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganPesananBesok.Location = New Point(15, 81)
         lblKeteranganPesananBesok.Name = "lblKeteranganPesananBesok"
-        lblKeteranganPesananBesok.Size = New Size(339, 30)
+        lblKeteranganPesananBesok.Size = New Size(347, 30)
         lblKeteranganPesananBesok.TabIndex = 1
         lblKeteranganPesananBesok.Text = "Jadwal pengambilan besok"
         ' 
         ' lblNamaPesananBesok
         ' 
         lblNamaPesananBesok.Dock = DockStyle.Top
-        lblNamaPesananBesok.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNamaPesananBesok.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNamaPesananBesok.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaPesananBesok.Location = New Point(15, 12)
         lblNamaPesananBesok.Name = "lblNamaPesananBesok"
-        lblNamaPesananBesok.Size = New Size(339, 30)
+        lblNamaPesananBesok.Size = New Size(347, 30)
         lblNamaPesananBesok.TabIndex = 0
         lblNamaPesananBesok.Text = "Pesanan Besok"
         ' 
@@ -936,11 +936,11 @@ Partial Class FormMain
         ' 
         lblAngkaPesananBesok.AutoSize = True
         lblAngkaPesananBesok.BackColor = Color.Transparent
-        lblAngkaPesananBesok.Font = New Font("Segoe UI", 22.0F, FontStyle.Bold)
+        lblAngkaPesananBesok.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
         lblAngkaPesananBesok.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaPesananBesok.Location = New Point(18, 29)
         lblAngkaPesananBesok.Name = "lblAngkaPesananBesok"
-        lblAngkaPesananBesok.Size = New Size(50, 60)
+        lblAngkaPesananBesok.Size = New Size(35, 41)
         lblAngkaPesananBesok.TabIndex = 2
         lblAngkaPesananBesok.Text = "0"
         ' 
@@ -955,28 +955,28 @@ Partial Class FormMain
         pnlPesananHariIni.Margin = New Padding(6)
         pnlPesananHariIni.Name = "pnlPesananHariIni"
         pnlPesananHariIni.Padding = New Padding(15, 12, 15, 12)
-        pnlPesananHariIni.Size = New Size(369, 123)
+        pnlPesananHariIni.Size = New Size(376, 123)
         pnlPesananHariIni.TabIndex = 0
         ' 
         ' lblKeteranganPesananHariIni
         ' 
         lblKeteranganPesananHariIni.Dock = DockStyle.Bottom
-        lblKeteranganPesananHariIni.Font = New Font("Segoe UI", 9.0F)
+        lblKeteranganPesananHariIni.Font = New Font("Segoe UI", 9F)
         lblKeteranganPesananHariIni.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganPesananHariIni.Location = New Point(15, 81)
         lblKeteranganPesananHariIni.Name = "lblKeteranganPesananHariIni"
-        lblKeteranganPesananHariIni.Size = New Size(339, 30)
+        lblKeteranganPesananHariIni.Size = New Size(346, 30)
         lblKeteranganPesananHariIni.TabIndex = 1
         lblKeteranganPesananHariIni.Text = "Pesanan masuk hari ini"
         ' 
         ' lblNamaPesananHariIni
         ' 
         lblNamaPesananHariIni.Dock = DockStyle.Top
-        lblNamaPesananHariIni.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNamaPesananHariIni.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNamaPesananHariIni.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaPesananHariIni.Location = New Point(15, 12)
         lblNamaPesananHariIni.Name = "lblNamaPesananHariIni"
-        lblNamaPesananHariIni.Size = New Size(339, 30)
+        lblNamaPesananHariIni.Size = New Size(346, 30)
         lblNamaPesananHariIni.TabIndex = 0
         lblNamaPesananHariIni.Text = "Pesanan Hari Ini"
         ' 
@@ -984,11 +984,11 @@ Partial Class FormMain
         ' 
         lblAngkaPesananHariIni.AutoSize = True
         lblAngkaPesananHariIni.BackColor = Color.Transparent
-        lblAngkaPesananHariIni.Font = New Font("Segoe UI", 22.0F, FontStyle.Bold)
+        lblAngkaPesananHariIni.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
         lblAngkaPesananHariIni.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaPesananHariIni.Location = New Point(18, 29)
         lblAngkaPesananHariIni.Name = "lblAngkaPesananHariIni"
-        lblAngkaPesananHariIni.Size = New Size(50, 60)
+        lblAngkaPesananHariIni.Size = New Size(35, 41)
         lblAngkaPesananHariIni.TabIndex = 2
         lblAngkaPesananHariIni.Text = "0"
         ' 
@@ -1005,11 +1005,11 @@ Partial Class FormMain
         ' 
         lblRingkasanAktivitas.AutoSize = True
         lblRingkasanAktivitas.Dock = DockStyle.Top
-        lblRingkasanAktivitas.Font = New Font("Segoe UI", 20.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblRingkasanAktivitas.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblRingkasanAktivitas.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblRingkasanAktivitas.Location = New Point(0, 48)
         lblRingkasanAktivitas.Name = "lblRingkasanAktivitas"
-        lblRingkasanAktivitas.Size = New Size(394, 54)
+        lblRingkasanAktivitas.Size = New Size(270, 37)
         lblRingkasanAktivitas.TabIndex = 0
         lblRingkasanAktivitas.Text = "Ringkasan Aktivitas"
         lblRingkasanAktivitas.Visible = False
@@ -1021,7 +1021,7 @@ Partial Class FormMain
         pnlBannerBeranda.Dock = DockStyle.Top
         pnlBannerBeranda.Location = New Point(0, 0)
         pnlBannerBeranda.Name = "pnlBannerBeranda"
-        pnlBannerBeranda.Size = New Size(810, 48)
+        pnlBannerBeranda.Size = New Size(825, 48)
         pnlBannerBeranda.TabIndex = 7
         ' 
         ' lblDeskripsiDashboard
@@ -1031,20 +1031,20 @@ Partial Class FormMain
         lblDeskripsiDashboard.ForeColor = Color.FromArgb(CByte(238), CByte(228), CByte(220))
         lblDeskripsiDashboard.Location = New Point(24, 10)
         lblDeskripsiDashboard.Name = "lblDeskripsiDashboard"
-        lblDeskripsiDashboard.Size = New Size(525, 30)
+        lblDeskripsiDashboard.Size = New Size(349, 19)
         lblDeskripsiDashboard.TabIndex = 1
         lblDeskripsiDashboard.Text = "Pantau pesanan dan aktivitas Fitry Homebakery hari ini."
         ' 
         ' FormMain
         ' 
-        AutoScaleDimensions = New SizeF(144.0F, 144.0F)
+        AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(248), CByte(244), CByte(238))
-        ClientSize = New Size(1076, 665)
+        ClientSize = New Size(1082, 682)
         Controls.Add(pnlContent)
         Controls.Add(pnlHeader)
         Controls.Add(pnlSidebar)
-        Font = New Font("Segoe UI", 10.0F)
+        Font = New Font("Segoe UI", 10F)
         MinimumSize = New Size(1098, 721)
         Name = "FormMain"
         StartPosition = FormStartPosition.CenterScreen
