@@ -325,4 +325,7 @@ Public Class FormMain
         TampilkanHalaman(New UcPembayaran(), "Pembayaran", btnPembayaran)
     End Sub
 
+    Private Sub pnlHeader_Paint(sender As Object, e As PaintEventArgs) Handles pnlHeader.Paint
+
+    End Sub
 End Class
