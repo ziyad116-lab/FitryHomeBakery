@@ -20,7 +20,7 @@
             Return
         End If
 
-        TerapkanTema()
+
 
         ' ----- isi teks -----
         Text = "Detail Pesanan " & nomor
@@ -65,23 +65,6 @@
         HitungUlang(Nothing, EventArgs.Empty)
     End Sub
 
-    ' Warna diambil dari kelas Tema supaya konsisten satu aplikasi
-    Private Sub TerapkanTema()
-        BackColor = Tema.Krem
-        pnlJudul.BackColor = Tema.CoklatTua
-        For Each l As Label In {lblPelangganJudul, lblTanggalJudul, lblStatusJudul, lblJenisJudul, lblCatatanJudul}
-            l.ForeColor = Tema.CoklatSedang
-        Next
-        For Each l As Label In {lblPelanggan, lblTanggal, lblStatus, lblJenis, lblCatatan}
-            l.ForeColor = Tema.CoklatTua
-        Next
-        lblTotal.ForeColor = Tema.CoklatTua
-        lblInfoSelesai.ForeColor = Tema.TeksRedup
-        btnTutup.BackColor = Tema.Pasir
-        btnTutup.ForeColor = Tema.CoklatTua
-        btnSimpan.BackColor = Tema.CoklatSedang
-        btnSimpan.ForeColor = Color.White
-    End Sub
 
     Private Function TambahSel(tbl As TableLayoutPanel, teks As String, kolom As Integer, header As Boolean, rata As ContentAlignment) As Label
         Dim sel As New Label With {
@@ -89,8 +72,8 @@
             .TextAlign = rata, .AutoEllipsis = True, .Margin = New Padding(0),
             .Padding = New Padding(8, 0, 8, 0),
             .Font = New Font("Segoe UI", 9.5F, If(header, FontStyle.Bold, FontStyle.Regular)),
-            .ForeColor = If(header, Tema.CoklatSedang, Tema.CoklatTua),
-            .BackColor = If(header, Tema.Krem, Color.White)
+            .ForeColor = If(header, Color.White, Tema.CoklatTua),
+            .BackColor = If(header, Tema.CoklatTua, Color.White)
         }
         tbl.Controls.Add(sel, kolom, tbl.RowCount)
         If kolom = 3 Then tbl.RowCount += 1

@@ -12,19 +12,6 @@ Public Class FrmCatatPembayaran
     Private totalDibayarTerpilih As Decimal
     Private sisaTerpilih As Decimal
 
-    ' Kontrol (dibuat lewat kode, nama sesuai modul)
-    Private lblPilihPesanan, lblNamaPelanggan, lblTotalTagihan, lblTotalDibayar As Label
-    Private lblSisaTagihan, lblJumlahBayar, lblMetodePembayaran, lblTanggalPembayaran As Label
-    Private WithEvents cmbPilihPesanan As ComboBox
-    Private txtNamaPelanggan, txtTotalTagihan, txtTotalDibayar, txtSisaTagihan As TextBox
-    Private WithEvents txtJumlahBayar As TextBox
-    Private cmbMetodePembayaran As ComboBox
-    Private dtpTanggalPembayaran As DateTimePicker
-    Private WithEvents btnSimpanPembayaran As Button
-    Private WithEvents btnBatalPembayaran As Button
-
-    Private ReadOnly warnaTeks As Color = Color.FromArgb(73, 51, 43)
-
     Public Sub New(tagihan As DataTable, transaksi As DataTable, Optional nomorPesananAwal As String = "")
         InitializeComponent()
         dtTagihan = tagihan
@@ -36,128 +23,8 @@ Public Class FrmCatatPembayaran
     '  LOAD
     ' ============================================================
     Private Sub FrmCatatPembayaran_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        BangunTampilan()
-        IsiDaftarPesanan()
-    End Sub
-
-    Private Function BuatLabel(teks As String, y As Integer) As Label
-        Dim lbl As New Label With {
-            .Text = teks,
-            .Font = New Font("Segoe UI", 9.0F, FontStyle.Bold),
-            .ForeColor = Tema.CoklatSedang,
-            .AutoSize = False,
-            .Size = New Size(160, 28),
-            .TextAlign = ContentAlignment.MiddleLeft,
-            .Location = New Point(24, y)
-        }
-        Controls.Add(lbl)
-        Return lbl
-    End Function
-
-    Private Function BuatTextBox(nama As String, y As Integer, readOnlyBox As Boolean) As TextBox
-        Dim t As New TextBox With {
-            .Name = nama,
-            .ReadOnly = readOnlyBox,
-            .BorderStyle = BorderStyle.FixedSingle,
-            .Location = New Point(190, y),
-            .Size = New Size(360, 28),
-            .Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        }
-        If readOnlyBox Then t.BackColor = Tema.Pasir
-        Controls.Add(t)
-        Return t
-    End Function
-
-    Private Function BuatCombo(nama As String, y As Integer) As ComboBox
-        Dim c As New ComboBox With {
-            .Name = nama,
-            .DropDownStyle = ComboBoxStyle.DropDownList,
-            .Location = New Point(190, y),
-            .Size = New Size(360, 28),
-            .Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        }
-        Controls.Add(c)
-        Return c
-    End Function
-
-    Private Sub BangunTampilan()
-        ' Header coklat, sama seperti halaman lain
-        Dim pnlJudul As New Panel With {.Dock = DockStyle.Top, .Height = 56, .BackColor = Tema.CoklatTua}
-        pnlJudul.Controls.Add(New Label With {
-            .Text = "Catat Pembayaran", .AutoSize = True,
-            .Font = New Font("Segoe UI", 15.0F, FontStyle.Bold),
-            .ForeColor = Color.White, .Location = New Point(24, 12)
-        })
-        Controls.Add(pnlJudul)
-        ClientSize = New Size(580, 500)
-
-        Dim y As Integer = 76
-        Const langkah As Integer = 40
-
-        lblPilihPesanan = BuatLabel("Pilih Pesanan", y)
-        cmbPilihPesanan = BuatCombo("cmbPilihPesanan", y) : y += langkah
-
-        lblNamaPelanggan = BuatLabel("Nama Pelanggan", y)
-        txtNamaPelanggan = BuatTextBox("txtNamaPelanggan", y, True) : y += langkah
-
-        lblTotalTagihan = BuatLabel("Total Tagihan", y)
-        txtTotalTagihan = BuatTextBox("txtTotalTagihan", y, True) : y += langkah
-
-        lblTotalDibayar = BuatLabel("Total Dibayar", y)
-        txtTotalDibayar = BuatTextBox("txtTotalDibayar", y, True) : y += langkah
-
-        lblSisaTagihan = BuatLabel("Sisa Tagihan", y)
-        txtSisaTagihan = BuatTextBox("txtSisaTagihan", y, True) : y += langkah
-
-        lblJumlahBayar = BuatLabel("Jumlah Pembayaran", y)
-        txtJumlahBayar = BuatTextBox("txtJumlahBayar", y, False) : y += langkah
-
-        lblMetodePembayaran = BuatLabel("Metode Pembayaran", y)
-        cmbMetodePembayaran = BuatCombo("cmbMetodePembayaran", y)
-        cmbMetodePembayaran.Items.AddRange(New Object() {"Tunai", "Transfer Bank", "QRIS"})
         cmbMetodePembayaran.SelectedIndex = -1   ' dikosongkan: dipilih sendiri oleh pengguna
-        y += langkah
-
-        lblTanggalPembayaran = BuatLabel("Tanggal Pembayaran", y)
-        dtpTanggalPembayaran = New DateTimePicker With {
-            .Name = "dtpTanggalPembayaran",
-            .Format = DateTimePickerFormat.Short,
-            .Location = New Point(190, y),
-            .Size = New Size(160, 28)
-        }
-        Controls.Add(dtpTanggalPembayaran)
-        y += langkah + 10
-
-        btnSimpanPembayaran = New Button With {
-            .Name = "btnSimpanPembayaran",
-            .Text = "Simpan Pembayaran",
-            .Size = New Size(170, 40),
-            .Location = New Point(190, y),
-            .BackColor = Tema.CoklatSedang,
-            .ForeColor = Color.White,
-            .Font = New Font("Segoe UI", 10, FontStyle.Bold),
-            .FlatStyle = FlatStyle.Flat,
-            .Cursor = Cursors.Hand
-        }
-        btnSimpanPembayaran.FlatAppearance.BorderSize = 0
-        Controls.Add(btnSimpanPembayaran)
-
-        btnBatalPembayaran = New Button With {
-            .Name = "btnBatalPembayaran",
-            .Text = "Batal",
-            .Size = New Size(110, 40),
-            .Location = New Point(370, y),
-            .BackColor = Tema.Pasir,
-            .ForeColor = warnaTeks,
-            .Font = New Font("Segoe UI", 10, FontStyle.Bold),
-            .FlatStyle = FlatStyle.Flat,
-            .Cursor = Cursors.Hand
-        }
-        btnBatalPembayaran.FlatAppearance.BorderSize = 0
-        Controls.Add(btnBatalPembayaran)
-
-        AcceptButton = btnSimpanPembayaran
-        CancelButton = btnBatalPembayaran
+        IsiDaftarPesanan()
     End Sub
 
     ' ============================================================
@@ -229,7 +96,6 @@ Public Class FrmCatatPembayaran
         totalTagihanTerpilih = 0D
         totalDibayarTerpilih = 0D
         sisaTerpilih = 0D
-        If txtNamaPelanggan Is Nothing Then Return
         txtNamaPelanggan.Clear()
         txtTotalTagihan.Clear()
         txtTotalDibayar.Clear()
