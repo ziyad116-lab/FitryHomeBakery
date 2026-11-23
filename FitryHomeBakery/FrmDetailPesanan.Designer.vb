@@ -48,7 +48,7 @@ Partial Class FrmDetailPesanan
         ' lblJudul
         ' 
         lblJudul.AutoSize = True
-        lblJudul.Font = New Font("Segoe UI", 15.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblJudul.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblJudul.ForeColor = Color.White
         lblJudul.Location = New Point(24, 12)
         lblJudul.Name = "lblJudul"
@@ -59,7 +59,7 @@ Partial Class FrmDetailPesanan
         ' lblPelangganJudul
         ' 
         lblPelangganJudul.AutoSize = True
-        lblPelangganJudul.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPelangganJudul.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblPelangganJudul.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblPelangganJudul.Location = New Point(24, 74)
         lblPelangganJudul.Name = "lblPelangganJudul"
@@ -80,7 +80,7 @@ Partial Class FrmDetailPesanan
         ' lblTanggalJudul
         ' 
         lblTanggalJudul.AutoSize = True
-        lblTanggalJudul.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        lblTanggalJudul.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         lblTanggalJudul.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblTanggalJudul.Location = New Point(24, 102)
         lblTanggalJudul.Name = "lblTanggalJudul"
@@ -118,7 +118,7 @@ Partial Class FrmDetailPesanan
         ' lblStatusJudul
         ' 
         lblStatusJudul.AutoSize = True
-        lblStatusJudul.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        lblStatusJudul.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         lblStatusJudul.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblStatusJudul.Location = New Point(24, 130)
         lblStatusJudul.Name = "lblStatusJudul"
@@ -139,7 +139,7 @@ Partial Class FrmDetailPesanan
         ' lblJenisJudul
         ' 
         lblJenisJudul.AutoSize = True
-        lblJenisJudul.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        lblJenisJudul.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         lblJenisJudul.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblJenisJudul.Location = New Point(24, 158)
         lblJenisJudul.Name = "lblJenisJudul"
@@ -150,7 +150,7 @@ Partial Class FrmDetailPesanan
         ' lblCatatanJudul
         ' 
         lblCatatanJudul.AutoSize = True
-        lblCatatanJudul.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        lblCatatanJudul.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         lblCatatanJudul.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblCatatanJudul.Location = New Point(24, 186)
         lblCatatanJudul.Name = "lblCatatanJudul"
@@ -169,7 +169,7 @@ Partial Class FrmDetailPesanan
         ' 
         ' lblTotal
         ' 
-        lblTotal.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        lblTotal.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         lblTotal.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblTotal.Location = New Point(24, 424)
         lblTotal.Name = "lblTotal"
@@ -191,22 +191,24 @@ Partial Class FrmDetailPesanan
         ' tblItem
         ' 
         tblItem.AutoSize = True
+        tblItem.BackColor = Color.White
         tblItem.ColumnCount = 4
-        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 215.0F))
-        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 110.0F))
-        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 90.0F))
-        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 160.0F))
+        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 215F))
+        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 110F))
+        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 90F))
+        tblItem.ColumnStyles.Add(New ColumnStyle(SizeType.Absolute, 160F))
+        tblItem.ForeColor = Color.White
         tblItem.Location = New Point(0, 0)
         tblItem.Name = "tblItem"
         tblItem.RowCount = 1
-        tblItem.RowStyles.Add(New RowStyle(SizeType.Percent, 100.0F))
-        tblItem.RowStyles.Add(New RowStyle(SizeType.Absolute, 20.0F))
-        tblItem.Size = New Size(592, 100)
+        tblItem.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
+        tblItem.RowStyles.Add(New RowStyle(SizeType.Absolute, 20F))
+        tblItem.Size = New Size(592, 32)
         tblItem.TabIndex = 0
         ' 
         ' lblSisa
         ' 
-        lblSisa.Font = New Font("Segoe UI", 9.0F)
+        lblSisa.Font = New Font("Segoe UI", 9F)
         lblSisa.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblSisa.Location = New Point(24, 452)
         lblSisa.Name = "lblSisa"
@@ -258,7 +260,7 @@ Partial Class FrmDetailPesanan
         ' 
         ' FrmDetailPesanan
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 17.0F)
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(247), CByte(243), CByte(235))
         ClientSize = New Size(640, 588)
@@ -279,7 +281,7 @@ Partial Class FrmDetailPesanan
         Controls.Add(lblTanggalJudul)
         Controls.Add(lblPelanggan)
         Controls.Add(lblPelangganJudul)
-        Font = New Font("Segoe UI", 10.0F)
+        Font = New Font("Segoe UI", 10F)
         FormBorderStyle = FormBorderStyle.FixedDialog
         MaximizeBox = False
         MinimizeBox = False
