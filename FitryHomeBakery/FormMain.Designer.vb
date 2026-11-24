@@ -132,9 +132,9 @@ Partial Class FormMain
         lblDeskripsiPesananMendatang.Dock = DockStyle.Top
         lblDeskripsiPesananMendatang.Font = New Font("Segoe UI", 9F)
         lblDeskripsiPesananMendatang.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiPesananMendatang.Location = New Point(15, 36)
+        lblDeskripsiPesananMendatang.Location = New Point(15, 47)
         lblDeskripsiPesananMendatang.Name = "lblDeskripsiPesananMendatang"
-        lblDeskripsiPesananMendatang.Size = New Size(340, 15)
+        lblDeskripsiPesananMendatang.Size = New Size(510, 25)
         lblDeskripsiPesananMendatang.TabIndex = 1
         lblDeskripsiPesananMendatang.Text = "Pesanan yang perlu dipantau berdasarkan jadwal pengambilan."
         ' 
@@ -145,9 +145,9 @@ Partial Class FormMain
         lblDeskripsiRingkasanPenjualan.Dock = DockStyle.Top
         lblDeskripsiRingkasanPenjualan.Font = New Font("Segoe UI", 9F)
         lblDeskripsiRingkasanPenjualan.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiRingkasanPenjualan.Location = New Point(15, 36)
+        lblDeskripsiRingkasanPenjualan.Location = New Point(15, 47)
         lblDeskripsiRingkasanPenjualan.Name = "lblDeskripsiRingkasanPenjualan"
-        lblDeskripsiRingkasanPenjualan.Size = New Size(226, 15)
+        lblDeskripsiRingkasanPenjualan.Size = New Size(337, 25)
         lblDeskripsiRingkasanPenjualan.TabIndex = 1
         lblDeskripsiRingkasanPenjualan.Text = "Pantau total penjualan Fitry Homebakery."
         ' 
@@ -158,9 +158,9 @@ Partial Class FormMain
         lblDeskripsiProdukTerlaris.Dock = DockStyle.Top
         lblDeskripsiProdukTerlaris.Font = New Font("Segoe UI", 9F)
         lblDeskripsiProdukTerlaris.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
-        lblDeskripsiProdukTerlaris.Location = New Point(15, 36)
+        lblDeskripsiProdukTerlaris.Location = New Point(15, 47)
         lblDeskripsiProdukTerlaris.Name = "lblDeskripsiProdukTerlaris"
-        lblDeskripsiProdukTerlaris.Size = New Size(268, 15)
+        lblDeskripsiProdukTerlaris.Size = New Size(405, 25)
         lblDeskripsiProdukTerlaris.TabIndex = 1
         lblDeskripsiProdukTerlaris.Text = "Daftar produk dengan jumlah pesanan terbanyak."
         ' 
@@ -309,7 +309,7 @@ Partial Class FormMain
         lblNamaUsaha.ForeColor = Color.White
         lblNamaUsaha.Location = New Point(16, 23)
         lblNamaUsaha.Name = "lblNamaUsaha"
-        lblNamaUsaha.Size = New Size(145, 19)
+        lblNamaUsaha.Size = New Size(207, 28)
         lblNamaUsaha.TabIndex = 0
         lblNamaUsaha.Text = "FITRY HOMEBAKERY"
         lblNamaUsaha.TextAlign = ContentAlignment.MiddleLeft
@@ -331,7 +331,7 @@ Partial Class FormMain
         lblJudulHalaman.ForeColor = Color.White
         lblJudulHalaman.Location = New Point(16, 13)
         lblJudulHalaman.Name = "lblJudulHalaman"
-        lblJudulHalaman.Size = New Size(99, 30)
+        lblJudulHalaman.Size = New Size(144, 45)
         lblJudulHalaman.TabIndex = 0
         lblJudulHalaman.Text = "Beranda"
         ' 
@@ -465,7 +465,7 @@ Partial Class FormMain
         lblJudulProdukTerlaris.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulProdukTerlaris.Location = New Point(15, 15)
         lblJudulProdukTerlaris.Name = "lblJudulProdukTerlaris"
-        lblJudulProdukTerlaris.Size = New Size(124, 21)
+        lblJudulProdukTerlaris.Size = New Size(187, 32)
         lblJudulProdukTerlaris.TabIndex = 0
         lblJudulProdukTerlaris.Text = "Produk Terlaris"
         lblJudulProdukTerlaris.TextAlign = ContentAlignment.MiddleLeft
@@ -510,7 +510,7 @@ Partial Class FormMain
         lblKeteranganGrafik.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganGrafik.Location = New Point(15, 44)
         lblKeteranganGrafik.Name = "lblKeteranganGrafik"
-        lblKeteranganGrafik.Size = New Size(225, 15)
+        lblKeteranganGrafik.Size = New Size(340, 25)
         lblKeteranganGrafik.TabIndex = 7
         lblKeteranganGrafik.Text = "Visualisasi penjualan berdasarkan periode"
         ' 
@@ -558,7 +558,7 @@ Partial Class FormMain
         lblJudulGrafikPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulGrafikPenjualan.Location = New Point(15, 12)
         lblJudulGrafikPenjualan.Name = "lblJudulGrafikPenjualan"
-        lblJudulGrafikPenjualan.Size = New Size(119, 19)
+        lblJudulGrafikPenjualan.Size = New Size(168, 28)
         lblJudulGrafikPenjualan.TabIndex = 0
         lblJudulGrafikPenjualan.Text = "Grafik Penjualan"
         ' 
@@ -573,7 +573,7 @@ Partial Class FormMain
         cmbPeriodePenjualan.Items.AddRange(New Object() {"Hari Ini", "Minggu Ini", "Bulan Ini", "Bulan Lalu", "Tahun Ini"})
         cmbPeriodePenjualan.Location = New Point(603, 18)
         cmbPeriodePenjualan.Name = "cmbPeriodePenjualan"
-        cmbPeriodePenjualan.Size = New Size(150, 23)
+        cmbPeriodePenjualan.Size = New Size(150, 33)
         cmbPeriodePenjualan.TabIndex = 5
         ' 
         ' lblPeriodePenjualan
@@ -584,7 +584,7 @@ Partial Class FormMain
         lblPeriodePenjualan.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblPeriodePenjualan.Location = New Point(15, 159)
         lblPeriodePenjualan.Name = "lblPeriodePenjualan"
-        lblPeriodePenjualan.Size = New Size(167, 15)
+        lblPeriodePenjualan.Size = New Size(247, 25)
         lblPeriodePenjualan.TabIndex = 4
         lblPeriodePenjualan.Text = "Akumulasi penjualan bulan ini"
         ' 
@@ -596,7 +596,7 @@ Partial Class FormMain
         lblNominalPenjualan.ForeColor = Color.FromArgb(CByte(184), CByte(111), CByte(82))
         lblNominalPenjualan.Location = New Point(15, 105)
         lblNominalPenjualan.Name = "lblNominalPenjualan"
-        lblNominalPenjualan.Size = New Size(68, 37)
+        lblNominalPenjualan.Size = New Size(97, 54)
         lblNominalPenjualan.TabIndex = 3
         lblNominalPenjualan.Text = "Rp0"
         ' 
@@ -608,7 +608,7 @@ Partial Class FormMain
         lblTotalPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblTotalPenjualan.Location = New Point(15, 80)
         lblTotalPenjualan.Name = "lblTotalPenjualan"
-        lblTotalPenjualan.Size = New Size(111, 19)
+        lblTotalPenjualan.Size = New Size(157, 28)
         lblTotalPenjualan.TabIndex = 2
         lblTotalPenjualan.Text = "Total Penjualan"
         ' 
@@ -621,7 +621,7 @@ Partial Class FormMain
         lblJudulRingkasanPenjualan.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulRingkasanPenjualan.Location = New Point(15, 15)
         lblJudulRingkasanPenjualan.Name = "lblJudulRingkasanPenjualan"
-        lblJudulRingkasanPenjualan.Size = New Size(170, 21)
+        lblJudulRingkasanPenjualan.Size = New Size(251, 32)
         lblJudulRingkasanPenjualan.TabIndex = 0
         lblJudulRingkasanPenjualan.Text = "Ringkasan Penjualan"
         lblJudulRingkasanPenjualan.TextAlign = ContentAlignment.MiddleLeft
@@ -776,7 +776,7 @@ Partial Class FormMain
         lblJudulPesananMendatang.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblJudulPesananMendatang.Location = New Point(15, 15)
         lblJudulPesananMendatang.Name = "lblJudulPesananMendatang"
-        lblJudulPesananMendatang.Size = New Size(166, 21)
+        lblJudulPesananMendatang.Size = New Size(246, 32)
         lblJudulPesananMendatang.TabIndex = 0
         lblJudulPesananMendatang.Text = "Pesanan Mendatang"
         lblJudulPesananMendatang.TextAlign = ContentAlignment.MiddleLeft
@@ -791,13 +791,13 @@ Partial Class FormMain
         tlpKartuRingkasan.Controls.Add(pnlPesananBesok, 1, 0)
         tlpKartuRingkasan.Controls.Add(pnlPesananHariIni, 0, 0)
         tlpKartuRingkasan.Dock = DockStyle.Top
-        tlpKartuRingkasan.Location = New Point(0, 85)
+        tlpKartuRingkasan.Location = New Point(0, 102)
         tlpKartuRingkasan.Name = "tlpKartuRingkasan"
         tlpKartuRingkasan.Padding = New Padding(24, 16, 24, 0)
         tlpKartuRingkasan.RowCount = 2
         tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
         tlpKartuRingkasan.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        tlpKartuRingkasan.Size = New Size(825, 286)
+        tlpKartuRingkasan.Size = New Size(816, 286)
         tlpKartuRingkasan.TabIndex = 3
         ' 
         ' pnlBelumLunas
@@ -807,11 +807,11 @@ Partial Class FormMain
         pnlBelumLunas.Controls.Add(lblNamaBelumLunas)
         pnlBelumLunas.Controls.Add(lblAngkaBelumLunas)
         pnlBelumLunas.Dock = DockStyle.Fill
-        pnlBelumLunas.Location = New Point(418, 157)
+        pnlBelumLunas.Location = New Point(414, 157)
         pnlBelumLunas.Margin = New Padding(6)
         pnlBelumLunas.Name = "pnlBelumLunas"
         pnlBelumLunas.Padding = New Padding(15, 12, 15, 12)
-        pnlBelumLunas.Size = New Size(377, 123)
+        pnlBelumLunas.Size = New Size(372, 123)
         pnlBelumLunas.TabIndex = 5
         ' 
         ' lblKeteranganBelumLunas
@@ -821,7 +821,7 @@ Partial Class FormMain
         lblKeteranganBelumLunas.ForeColor = Color.FromArgb(CByte(180), CByte(110), CByte(0))
         lblKeteranganBelumLunas.Location = New Point(15, 81)
         lblKeteranganBelumLunas.Name = "lblKeteranganBelumLunas"
-        lblKeteranganBelumLunas.Size = New Size(347, 30)
+        lblKeteranganBelumLunas.Size = New Size(342, 30)
         lblKeteranganBelumLunas.TabIndex = 1
         lblKeteranganBelumLunas.Text = "Pesanan masih memiliki tagihan"
         ' 
@@ -832,7 +832,7 @@ Partial Class FormMain
         lblNamaBelumLunas.ForeColor = Color.FromArgb(CByte(180), CByte(110), CByte(0))
         lblNamaBelumLunas.Location = New Point(15, 12)
         lblNamaBelumLunas.Name = "lblNamaBelumLunas"
-        lblNamaBelumLunas.Size = New Size(347, 30)
+        lblNamaBelumLunas.Size = New Size(342, 30)
         lblNamaBelumLunas.TabIndex = 0
         lblNamaBelumLunas.Text = "Belum Lunas"
         ' 
@@ -844,7 +844,7 @@ Partial Class FormMain
         lblAngkaBelumLunas.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaBelumLunas.Location = New Point(18, 31)
         lblAngkaBelumLunas.Name = "lblAngkaBelumLunas"
-        lblAngkaBelumLunas.Size = New Size(35, 41)
+        lblAngkaBelumLunas.Size = New Size(50, 60)
         lblAngkaBelumLunas.TabIndex = 2
         lblAngkaBelumLunas.Text = "0"
         ' 
@@ -859,7 +859,7 @@ Partial Class FormMain
         pnlBelumSelesai.Margin = New Padding(6)
         pnlBelumSelesai.Name = "pnlBelumSelesai"
         pnlBelumSelesai.Padding = New Padding(15, 12, 15, 12)
-        pnlBelumSelesai.Size = New Size(376, 123)
+        pnlBelumSelesai.Size = New Size(372, 123)
         pnlBelumSelesai.TabIndex = 4
         ' 
         ' lblKeteranganBelumSelesai
@@ -869,7 +869,7 @@ Partial Class FormMain
         lblKeteranganBelumSelesai.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganBelumSelesai.Location = New Point(15, 81)
         lblKeteranganBelumSelesai.Name = "lblKeteranganBelumSelesai"
-        lblKeteranganBelumSelesai.Size = New Size(346, 30)
+        lblKeteranganBelumSelesai.Size = New Size(342, 30)
         lblKeteranganBelumSelesai.TabIndex = 1
         lblKeteranganBelumSelesai.Text = "Pesanan perlu dikerjakan"
         ' 
@@ -880,7 +880,7 @@ Partial Class FormMain
         lblNamaBelumSelesai.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaBelumSelesai.Location = New Point(15, 12)
         lblNamaBelumSelesai.Name = "lblNamaBelumSelesai"
-        lblNamaBelumSelesai.Size = New Size(346, 30)
+        lblNamaBelumSelesai.Size = New Size(342, 30)
         lblNamaBelumSelesai.TabIndex = 0
         lblNamaBelumSelesai.Text = "Belum Selesai"
         ' 
@@ -892,7 +892,7 @@ Partial Class FormMain
         lblAngkaBelumSelesai.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaBelumSelesai.Location = New Point(18, 31)
         lblAngkaBelumSelesai.Name = "lblAngkaBelumSelesai"
-        lblAngkaBelumSelesai.Size = New Size(35, 41)
+        lblAngkaBelumSelesai.Size = New Size(50, 60)
         lblAngkaBelumSelesai.TabIndex = 2
         lblAngkaBelumSelesai.Text = "0"
         ' 
@@ -903,11 +903,11 @@ Partial Class FormMain
         pnlPesananBesok.Controls.Add(lblNamaPesananBesok)
         pnlPesananBesok.Controls.Add(lblAngkaPesananBesok)
         pnlPesananBesok.Dock = DockStyle.Fill
-        pnlPesananBesok.Location = New Point(418, 22)
+        pnlPesananBesok.Location = New Point(414, 22)
         pnlPesananBesok.Margin = New Padding(6)
         pnlPesananBesok.Name = "pnlPesananBesok"
         pnlPesananBesok.Padding = New Padding(15, 12, 15, 12)
-        pnlPesananBesok.Size = New Size(377, 123)
+        pnlPesananBesok.Size = New Size(372, 123)
         pnlPesananBesok.TabIndex = 3
         ' 
         ' lblKeteranganPesananBesok
@@ -917,7 +917,7 @@ Partial Class FormMain
         lblKeteranganPesananBesok.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganPesananBesok.Location = New Point(15, 81)
         lblKeteranganPesananBesok.Name = "lblKeteranganPesananBesok"
-        lblKeteranganPesananBesok.Size = New Size(347, 30)
+        lblKeteranganPesananBesok.Size = New Size(342, 30)
         lblKeteranganPesananBesok.TabIndex = 1
         lblKeteranganPesananBesok.Text = "Jadwal pengambilan besok"
         ' 
@@ -928,7 +928,7 @@ Partial Class FormMain
         lblNamaPesananBesok.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaPesananBesok.Location = New Point(15, 12)
         lblNamaPesananBesok.Name = "lblNamaPesananBesok"
-        lblNamaPesananBesok.Size = New Size(347, 30)
+        lblNamaPesananBesok.Size = New Size(342, 30)
         lblNamaPesananBesok.TabIndex = 0
         lblNamaPesananBesok.Text = "Pesanan Besok"
         ' 
@@ -940,7 +940,7 @@ Partial Class FormMain
         lblAngkaPesananBesok.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaPesananBesok.Location = New Point(18, 29)
         lblAngkaPesananBesok.Name = "lblAngkaPesananBesok"
-        lblAngkaPesananBesok.Size = New Size(35, 41)
+        lblAngkaPesananBesok.Size = New Size(50, 60)
         lblAngkaPesananBesok.TabIndex = 2
         lblAngkaPesananBesok.Text = "0"
         ' 
@@ -955,7 +955,7 @@ Partial Class FormMain
         pnlPesananHariIni.Margin = New Padding(6)
         pnlPesananHariIni.Name = "pnlPesananHariIni"
         pnlPesananHariIni.Padding = New Padding(15, 12, 15, 12)
-        pnlPesananHariIni.Size = New Size(376, 123)
+        pnlPesananHariIni.Size = New Size(372, 123)
         pnlPesananHariIni.TabIndex = 0
         ' 
         ' lblKeteranganPesananHariIni
@@ -965,7 +965,7 @@ Partial Class FormMain
         lblKeteranganPesananHariIni.ForeColor = Color.FromArgb(CByte(117), CByte(107), CByte(101))
         lblKeteranganPesananHariIni.Location = New Point(15, 81)
         lblKeteranganPesananHariIni.Name = "lblKeteranganPesananHariIni"
-        lblKeteranganPesananHariIni.Size = New Size(346, 30)
+        lblKeteranganPesananHariIni.Size = New Size(342, 30)
         lblKeteranganPesananHariIni.TabIndex = 1
         lblKeteranganPesananHariIni.Text = "Pesanan masuk hari ini"
         ' 
@@ -976,7 +976,7 @@ Partial Class FormMain
         lblNamaPesananHariIni.ForeColor = Color.FromArgb(CByte(121), CByte(85), CByte(72))
         lblNamaPesananHariIni.Location = New Point(15, 12)
         lblNamaPesananHariIni.Name = "lblNamaPesananHariIni"
-        lblNamaPesananHariIni.Size = New Size(346, 30)
+        lblNamaPesananHariIni.Size = New Size(342, 30)
         lblNamaPesananHariIni.TabIndex = 0
         lblNamaPesananHariIni.Text = "Pesanan Hari Ini"
         ' 
@@ -988,7 +988,7 @@ Partial Class FormMain
         lblAngkaPesananHariIni.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblAngkaPesananHariIni.Location = New Point(18, 29)
         lblAngkaPesananHariIni.Name = "lblAngkaPesananHariIni"
-        lblAngkaPesananHariIni.Size = New Size(35, 41)
+        lblAngkaPesananHariIni.Size = New Size(50, 60)
         lblAngkaPesananHariIni.TabIndex = 2
         lblAngkaPesananHariIni.Text = "0"
         ' 
@@ -1009,7 +1009,7 @@ Partial Class FormMain
         lblRingkasanAktivitas.ForeColor = Color.FromArgb(CByte(73), CByte(51), CByte(43))
         lblRingkasanAktivitas.Location = New Point(0, 48)
         lblRingkasanAktivitas.Name = "lblRingkasanAktivitas"
-        lblRingkasanAktivitas.Size = New Size(270, 37)
+        lblRingkasanAktivitas.Size = New Size(394, 54)
         lblRingkasanAktivitas.TabIndex = 0
         lblRingkasanAktivitas.Text = "Ringkasan Aktivitas"
         lblRingkasanAktivitas.Visible = False
@@ -1021,7 +1021,7 @@ Partial Class FormMain
         pnlBannerBeranda.Dock = DockStyle.Top
         pnlBannerBeranda.Location = New Point(0, 0)
         pnlBannerBeranda.Name = "pnlBannerBeranda"
-        pnlBannerBeranda.Size = New Size(825, 48)
+        pnlBannerBeranda.Size = New Size(816, 48)
         pnlBannerBeranda.TabIndex = 7
         ' 
         ' lblDeskripsiDashboard
@@ -1031,13 +1031,13 @@ Partial Class FormMain
         lblDeskripsiDashboard.ForeColor = Color.FromArgb(CByte(238), CByte(228), CByte(220))
         lblDeskripsiDashboard.Location = New Point(24, 10)
         lblDeskripsiDashboard.Name = "lblDeskripsiDashboard"
-        lblDeskripsiDashboard.Size = New Size(349, 19)
+        lblDeskripsiDashboard.Size = New Size(525, 30)
         lblDeskripsiDashboard.TabIndex = 1
         lblDeskripsiDashboard.Text = "Pantau pesanan dan aktivitas Fitry Homebakery hari ini."
         ' 
         ' FormMain
         ' 
-        AutoScaleDimensions = New SizeF(96F, 96F)
+        AutoScaleDimensions = New SizeF(144F, 144F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(248), CByte(244), CByte(238))
         ClientSize = New Size(1082, 682)

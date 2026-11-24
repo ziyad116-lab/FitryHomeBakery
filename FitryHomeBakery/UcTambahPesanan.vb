@@ -94,9 +94,7 @@ Public Class UcTambahPesanan
         pnlJudulKolom.Controls.Add(barisJudul)
         pnlIsi.Controls.Add(flpKeranjang)
         pnlIsi.Controls.Add(pnlJudulKolom)
-        Panel7.Controls.Add(pnlIsi)
-        pnlIsi.BringToFront()
-        AddHandler flpKeranjang.SizeChanged, Sub(s, ev) PerbaruiKeranjang()
+
 
         ' ===== 3. KERANGKA 2 KOLOM =====
         Dim lebarKanan As Integer = CInt(380 * Me.DeviceDpi / 96.0)
